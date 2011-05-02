@@ -1,0 +1,33 @@
+[ui]
+username=Jason Ostrander <jason.ostrander@gmail.com>
+
+[extensions]
+hgext.mq=
+fetch=
+rebase=
+transplant=
+hgext.pager=
+hgext.record=
+hgext.bookmarks=
+hgext.graphlog=
+color=
+hgext.patchbomb=
+zeroconf=
+
+[pager]
+pager = LESS='FRX' less
+attend=diff, log, help, svn, branches, glog, annotate, outgoing, incoming
+
+[bookmarks]
+track.current = True
+
+[email]
+method=smtp
+cc = jason.ostrander@gmail.com
+
+[smtp]
+host = smtp.gmail.com
+username = jason.ostrander@gmail.com
+port = 587
+tls = true
+

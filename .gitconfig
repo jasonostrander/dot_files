@@ -1,0 +1,20 @@
+[user]
+	name = Jason Ostrander
+	email = jason.ostrander@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+[merge]
+	tool = kdiff3
+[sendemail]
+	smtpserver = smtp.gmail.com
+	aliasesfile = /home/jason/.gitaliases
+	aliasfiletype = mailrc
+	smtpuser = jason.ostrander@gmail.com
+	smtpssl = true
