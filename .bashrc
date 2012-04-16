@@ -66,3 +66,9 @@ export WORKON_HOME=~/.virtualenvs
 source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
+
+# adb completions
+source ~/open-source/romannurik-code/misc/bash_completion/adb
+
+# git completions
+source ~/open-source/git/contrib/completion/git-completion.bash

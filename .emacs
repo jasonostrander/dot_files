@@ -17,6 +17,10 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (require 'yasnippet-bundle)
 
+;; scala mode
+(add-to-list 'load-path "~/open-source/scala-mode")
+(require 'scala-mode-auto)
+
 (require 'zencoding-mode)
 (add-hook 'sgml-mode-hook 'zencoding-mode) ;; Auto-start on any markup modes
 
