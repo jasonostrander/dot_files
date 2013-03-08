@@ -125,3 +125,6 @@ hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%
 
 # Make scrolling work
 termcapinfo xterm ti@:te@
+
+# Make the scrollback buffer larger
+defscrollback 5000
